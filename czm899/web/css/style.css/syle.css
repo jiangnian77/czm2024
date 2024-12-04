@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cc0000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #990000;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+}
+
+.flag {
+    width: 100px;
+    height: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
